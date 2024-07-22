@@ -34,7 +34,7 @@
 
     String classe = "";
 
-    String textowhats = "Olá, vi seu contato no site IMOB e gostaria de mais informações!!";
+    String textowhats = "OlÃ¡, vi seu contato no site imobiliÃ¡rio e gostaria de mais informaÃ§Ãµes!!";
 
     st = new Conexao().conectar().createStatement();
     st2 = new Conexao().conectar().createStatement();
@@ -92,12 +92,12 @@
                                 <p><span class="icon_pin_alt"></span> <%=nomeBairro%></p>
                                 <div class="label <%=classe%>"><%=status%></div>
                                 <h5><%=valor%><span><%if (status.equals("Para Aluguel")) {
-                                        out.print("<span>/mês</span>");
+                                        out.print("<span>/mï¿½s</span>");
                                     }%></span></h5>
                             </div>
                             <div class="hc-widget">
                                 <ul>
-                                    <li><i class="fa fa-object-group"></i> <%=area%>m²</li>
+                                    <li><i class="fa fa-object-group"></i> <%=area%>mï¿½</li>
                                     <li><i class="fa fa-bathtub"></i> <%=banheiros%></li>
                                     <li><i class="fa fa-bed"></i> <%=quartos%></li>
                                     <li><i class="fa fa-automobile"></i> <%=garagens%></li>
@@ -119,13 +119,13 @@
 </section>
 <!-- Final do Slideshow -->
 
-<!--Filtro por Imóveis -->
+<!--Filtro por Imï¿½veis -->
 <section class="search-section spad">
     <div class="container">
         <div class="row">
             <div class="col-lg-7">
                 <div class="section-title">
-                    <h4>Qual imóvel está Procurando?</h4>
+                    <h4>Qual imï¿½vel estï¿½ Procurando?</h4>
                 </div>
             </div>
             <div class="col-lg-5">
@@ -167,13 +167,13 @@
 
 
                 <select class="sm-width" name="condicao">
-                    <option value="">Imóvel Status</option>
+                    <option value="">Imï¿½vel Status</option>
                     <option value="Novo">Novo</option>
                     <option value="Planta">Planta</option>
                     <option value="Usado">Usado</option>
                 </select>
                 <select class="sm-width" name="tipo">
-                    <option value="">Tipo do Imóvel</option>
+                    <option value="">Tipo do Imï¿½vel</option>
                     <%
                         st = new Conexao().conectar().createStatement();
                         rs = st.executeQuery("SELECT * FROM tipos order by nome asc");
@@ -185,7 +185,7 @@
                     %>
                 </select>
                 <select class="sm-width" name="quartos">
-                    <option value="">Número de Quartos</option>
+                    <option value="">Nï¿½mero de Quartos</option>
                     <option value="1">1</option>
                     <option value="2">2</option>
                     <option value="3">3</option>
@@ -206,7 +206,7 @@
 
                 <div class="room-size-range-wrap sm-width">
                     <div class="price-text">
-                        <label for="roomsizeRange">Tamanho m²:</label>
+                        <label for="roomsizeRange">Tamanho mï¿½:</label>
                         <input type="text" id="roomsizeRange" name="area" readonly>
                         <input type="hidden" id="tamanhoMenor" name="tamanhoMenor">
                         <input type="hidden" id="tamanhoMaior" name="tamanhoMaior">
@@ -253,7 +253,7 @@
         <div class="row">
             <div class="col-lg-5">
                 <div class="section-title">
-                    <h4>ULTIMOS IMÓVEIS</h4>
+                    <h4>ULTIMOS IMï¿½VEIS</h4>
                 </div>
             </div>
             <div class="col-lg-7">
@@ -284,7 +284,7 @@
 
         <div class="row property-filter">
 
-            <!-- Início dos cards -->
+            <!-- Inï¿½cio dos cards -->
 
             <%    try {
 
@@ -346,7 +346,7 @@
                         <h5><a href="imovel-detalhes.jsp?id=<%=id%>"><%=titulo%></a></h5>
                         <p><span class="icon_pin_alt"></span> <%=nomeBairro%></p>
                         <ul>
-                            <li><i class="fa fa-object-group"></i> <%=area%> m²</li>
+                            <li><i class="fa fa-object-group"></i> <%=area%> mï¿½</li>
                             <li><i class="fa fa-bathtub"></i> <%=banheiros%></li>
                             <li><i class="fa fa-bed"></i> <%=quartos%></li>
                             <li><i class="fa fa-automobile"></i> <%=garagens%></li>
@@ -373,7 +373,7 @@
                 }
             %>
 
-            <!-- Fim dos Cards com os Imóveis -->   
+            <!-- Fim dos Cards com os Imï¿½veis -->   
 
         </div>
     </div>
@@ -398,7 +398,7 @@
                             <img src="img/chooseus/chooseus-icon-1.png" alt="">
                         </div>
                         <div class="cf-text">
-                            <h5>Os Melhores Imóveis</h5>
+                            <h5>Os Melhores Imï¿½veis</h5>
                             <p>We help you find a new home by offering a smart real estate.</p>
                         </div>
                     </div>
@@ -425,7 +425,7 @@
                             <img src="img/chooseus/chooseus-icon-4.png" alt="">
                         </div>
                         <div class="cf-text">
-                            <h5>Melhores Localizações</h5>
+                            <h5>Melhores Localizaï¿½ï¿½es</h5>
                             <p>Sign up now and sell or rent your own properties</p>
                         </div>
                     </div>
@@ -460,7 +460,7 @@
                             }
                         %>
                     </ul>
-                    <a class="linkcategorias" href="imoveis.jsp">Ver Todos Imóveis</a>
+                    <a class="linkcategorias" href="imoveis.jsp">Ver Todos Imï¿½veis</a>
                 </div>
             </div>
             <div class="col-lg-8 p-0">
@@ -518,7 +518,7 @@
                                     out.print("<span>/mes</span>");
                                 }%></span></h5>
                             <ul>
-                                <li><i class="fa fa-object-group"></i> <%=area%>m²</li>
+                                <li><i class="fa fa-object-group"></i> <%=area%>mï¿½</li>
                                 <li><i class="fa fa-bathtub"></i> <%=banheiros%></li>
                                 <li><i class="fa fa-bed"></i> <%=quartos%></li>
                                 <li><i class="fa fa-automobile"></i> <%=garagens%></li>
@@ -633,7 +633,7 @@
         <div class="cs-item set-bg" data-setbg="sistema/img/imoveis/<%=imagemTipo%>">
             <div class="cs-text">
                 <h5><%=nomeTipo3%></h5>
-                <span><%=quantImoveis%> imóveis</span>
+                <span><%=quantImoveis%> imï¿½veis</span>
             </div>
         </div>
         </a>
@@ -759,7 +759,7 @@
                         <input type="email" placeholder="Email">
 
                     </div>
-                    <textarea placeholder="Comentário"></textarea>
+                    <textarea placeholder="Comentï¿½rio"></textarea>
                     <div align="right">
                         <button id="btn-enviar" type="submit" class="site-btn">Enviar</button>
                     </div>
