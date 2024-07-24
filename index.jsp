@@ -131,13 +131,13 @@
             <div class="col-lg-5">
                 <div class="change-btn">
                     <div class="cb-item">
-                        <label for="cb-rent" class="active">
+                        <label for="cb-rent" class="btn btn-warning">
                             Compra
                             <input type="radio" id="cb-rent">
                         </label>
                     </div>
                     <div class="cb-item">
-                        <label for="cb-sale">
+                        <label for="cb-sale" class="btn btn-danger">
                             Aluguel
                             <input type="radio" id="cb-sale">
                         </label>

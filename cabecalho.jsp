@@ -41,8 +41,8 @@
         <link rel="stylesheet" href="css/style.css" type="text/css">
 
 
-        <link rel="shortcut icon" href="img/favicon0.ico" type="image/x-icon">
-        <link rel="icon" href="img/favicon0.ico" type="image/x-icon">
+        <link rel="shortcut icon" href="https://imoveismegha.com.br/favicon.ico" type="image/x-icon">
+        <link rel="icon" href="https://imoveismegha.com.br/favicon.ico" type="image/x-icon">
 
 
 
@@ -62,7 +62,7 @@
             </div>
             <div class="logo">
                 <a href="./index.jsp">
-                    <img src="img/logo.png" alt="">
+                    <img src="https://imoveismegha.com.br/assets/img/logo.png" alt="">
                 </a>
             </div>
             <div id="mobile-menu-wrap"></div>
@@ -102,7 +102,7 @@
                     <div class="row">
                         <div class="col-lg-2">
                             <div class="logo">
-                                <a href="./index.jsp"><img src="img/logo.png" alt=""></a>
+                                <a href="./index.jsp"><img src="https://imoveismegha.com.br/assets/img/logo.png" alt=""></a>
                             </div>
                         </div>
                         <div class="col-lg-8">

@@ -16,7 +16,7 @@ i<%@page import="util.Config"%>
                     <div class="fs-about">
                         <div class="fs-logo">
                             <a href="#">
-                                <img src="img/logo-b-p.png" alt="">
+                                <img src="https://imoveismegha.com.br/assets/img/logo-rodape.png" alt="">
                             </a>
                         </div>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
