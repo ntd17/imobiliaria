@@ -137,7 +137,7 @@
                         </label>
                     </div>
                     <div class="cb-item">
-                        <label for="cb-sale" class="btn btn-danger">
+                        <label for="cb-sale" class="btn btn-info">
                             Aluguel
                             <input type="radio" id="cb-sale">
                         </label>
