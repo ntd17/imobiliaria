@@ -138,7 +138,7 @@
                     </div>
                     <div class="cb-item">
                         <label for="cb-sale" class="btn btn-secondary">
-                            Emprestar
+                            Emprestar1
                             <input type="radio" id="cb-sale">
                         </label>
                     </div>
