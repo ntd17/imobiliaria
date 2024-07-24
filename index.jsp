@@ -131,7 +131,7 @@
             <div class="col-lg-5">
                 <div class="change-btn">
                     <div class="cb-item">
-                        <label for="cb-rent" class="btn btn-warning">
+                        <label for="cb-rent" class="btn btn-success">
                             Compra
                             <input type="radio" id="cb-rent">
                         </label>
