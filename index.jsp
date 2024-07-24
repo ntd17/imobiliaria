@@ -125,20 +125,20 @@
         <div class="row">
             <div class="col-lg-7">
                 <div class="section-title">
-                    <h4>Qual im�vel est� Procurando?</h4>
+                    <h4>Qual imóvel está Procurando?</h4>
                 </div>
             </div>
             <div class="col-lg-5">
                 <div class="change-btn">
                     <div class="cb-item">
-                        <label for="cb-rent" class="btn btn-success">
+                        <label for="cb-rent" class="btn btn-primary">
                             Compra
                             <input type="radio" id="cb-rent">
                         </label>
                     </div>
                     <div class="cb-item">
-                        <label for="cb-sale" class="btn btn-info">
-                            Aluguel
+                        <label for="cb-sale" class="btn btn-secondary">
+                            Emprestar
                             <input type="radio" id="cb-sale">
                         </label>
                     </div>
@@ -163,7 +163,6 @@
 
                 <span id="listar-bairros"></span>
                 <input value="teste" type="hidden" name="txtcidade" id="txtcidade">
-
 
 
                 <select class="sm-width" name="condicao">
